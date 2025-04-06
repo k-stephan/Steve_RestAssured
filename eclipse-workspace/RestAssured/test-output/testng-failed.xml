@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.api.automation.RestAssured.creakebookingwithpost">
+      <class name="com.api.automation.RestAssured.BrachGitExample">
         <methods>
-          <include name="createbooking"/>
+          <include name="getbookingwithfirstname"/>
         </methods>
-      </class> <!-- com.api.automation.RestAssured.creakebookingwithpost -->
+      </class> <!-- com.api.automation.RestAssured.BrachGitExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
