@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.572" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/admin/eclipse-workspace/RestAssured/target/test-classes:/Users/admin/eclipse-workspace/RestAssured/target/classes:/Users/admin/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/admin/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/admin/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/admin/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/admin/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/admin/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/admin/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/admin/.m2/repository/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.jar:/Users/admin/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/admin/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/admin/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/admin/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/admin/.m2/repository/org/json/json/20250107/json-20250107.jar:/Users/admin/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/Users/admin/.m2/repository/net/minidev/json-smart/2.5.0/json-smart-2.5.0.jar:/Users/admin/.m2/repository/net/minidev/accessors-smart/2.5.0/accessors-smart-2.5.0.jar:/Users/admin/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/admin/eclipse-workspace/RestAssured/target/surefire/surefirebooter-20250403155312377_3.jar /Users/admin/eclipse-workspace/RestAssured/target/surefire 2025-04-03T15-53-12_125-jvmRun1 surefire-20250403155312377_1tmp surefire_0-20250403155312377_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/admin/eclipse-workspace/RestAssured/target/test-classes:/Users/admin/eclipse-workspace/RestAssured/target/classes:/Users/admin/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/admin/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/admin/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/admin/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/admin/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/admin/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/admin/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/admin/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/admin/.m2/repository/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.jar:/Users/admin/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/admin/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/admin/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/admin/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/admin/.m2/repository/org/json/json/20250107/json-20250107.jar:/Users/admin/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/Users/admin/.m2/repository/net/minidev/json-smart/2.5.0/json-smart-2.5.0.jar:/Users/admin/.m2/repository/net/minidev/accessors-smart/2.5.0/accessors-smart-2.5.0.jar:/Users/admin/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/admin/eclipse-workspace/RestAssured"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/admin/eclipse-workspace/RestAssured/target/surefire/surefirebooter-20250403155312377_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="admin"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/admin/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/y3/0fw40jz1215gz221lbhd9tdw0000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/admin/eclipse-workspace/RestAssured"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="getrequestposts" classname="com.api.automation.RestAssured.AppTest" time="2.097">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getrequest" classname="com.api.automation.RestAssured.AppTest" time="0.52">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Thu, 03 Apr 2025 22:53:15 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+Cf-Ray: 92ac241a9d0741cd-EWR
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743692768&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=bqrhZqX7uZYIrrcyqZexgdirMY6WvWr96Ef2zD9ZE%2FY%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743692768&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=bqrhZqX7uZYIrrcyqZexgdirMY6WvWr96Ef2zD9ZE%2FY%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1743692798
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: public, max-age=43200
+Last-Modified: Thu, 03 Apr 2025 12:52:33 GMT
+Via: 1.1 vegur
+Cf-Cache-Status: HIT
+Age: 28027
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=17612&min_rtt=15260&rtt_var=7403&sent=5&recv=7&lost=0&retrans=0&sent_bytes=3115&recv_bytes=785&delivery_rate=284665&cwnd=252&unsent_bytes=0&cid=c42bd679dc703bcd&ts=44&x=0"
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-lucario.min.css"/>
+    <title>JSONPlaceholder - Free Fake REST API</title>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-E3C3GCQVBN"/>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-E3C3GCQVBN')
+    </script>
+    <script async="async" src="https://media.ethicalads.io/media/client/ethicalads.min.js"/>
+  </head>
+  <body>
+    <div class="bg-blue-500 text-center py-2">
+      <div class="container mx-auto">
+        <a shape="rect" class="text-white" href="https://github.com/typicode/mistcss">
+Check my new project           <strong>💧 MistCSS</strong>
+ write React components with 50% less code        </a>
+      </div>
+    </div>
+    <header class="         container         mx-auto         max-w-4xl         flex flex-col         md:flex-row         justify-between         py-one         mb-three       ">
+      <h1>
+        <a shape="rect" class="font-bold no-underline" href="/">JSONPlaceholder</a>
+      </h1>
+      <nav>
+        <ul class="flex">
+          <li>
+            <a shape="rect" class="mr-4 no-underline" href="/guide">Guide</a>
+          </li>
+          <li>
+            <a shape="rect" class="mr-4 no-underline" href="https://github.com/sponsors/typicode">Sponsor this project</a>
+          </li>
+          <li>
+            <a shape="rect" class="mr-4 no-underline" href="https://blog.typicode.com">Blog</a>
+          </li>
+          <li>
+            <a shape="rect" class="no-underline" href="https://my-json-server.typicode.com">My JSON Server</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <section id="hero" class="-mt-three py-20 mb-six -mx-2">
+        <div class="container mx-auto max-w-4xl">
+          <span class="text-6xl bold">{JSON} Placeholder</span>
+          <h1 class="mt-two text-lg">
+      Free fake and reliable API for testing and prototyping.
+    </h1>
+          <p class="mb-one text-lg">
+
+      Powered by
+                  <a shape="rect" href="https://github.com/typicode/json-server">JSON Server</a>
+
+      +
+                  <a shape="rect" href="https://github.com/typicode/lowdb">LowDB</a>
+.
+              </p>
+          <p>
+            <b>Serving ~3 billion requests each month</b>
+.          </p>
+        </div>
+      </section>
+      <section class="container mx-auto max-w-4xl mb-six">
+        <h2 class="text-2xl mb-one">Sponsors</h2>
+        <p class="mb-two">
+
+    JSONPlaceholder is supported by the following companies and
+              <a shape="rect" href="https://github.com/sponsors/typicode">Sponsors</a>
+ on GitHub, check
+    them out 💖
+          </p>
+        <p>
+          <a shape="rect" href="https://mockend.com" target="_blank">
+            <img class="mb-two" src="mockend.svg" style="height: 100px"/>
+          </a>
+        </p>
+        <p>
+          <a shape="rect" href="https://zuplo.link/json-server-web" target="_blank">
+            <img class="mb-two" src="https://github.com/user-attachments/assets/adfee31f-a8b6-4684-9a9b-af4f03ac5b75" style="height: 100px"/>
+          </a>
+        </p>
+        <p class="my-two">
+          <a shape="rect" href="https://github.com/sponsors/typicode">Your company logo here</a>
+        </p>
+      </section>
+      <section class="container mx-auto max-w-4xl mb-four">
+        <h2 class="text-2xl mb-one">Try it</h2>
+        <p>Run this code here, in a console or from any site:</p>
+        <pre>
+          <code class="language-javascript" id="example">fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then(response =&gt; response.json())
+      .then(json =&gt; console.log(json))</code>
+        </pre>
+        <button type="submit" class="bg-black hover:bg-gray-700 text-white font-bold py-quarter my-quarter px-4 rounded" id="run-button">
+    Run script
+  </button>
+        <pre>
+          <code class="language-javascript" id="result">{}</code>
+        </pre>
+        <p class="invisible" id="run-message">
+    Congrats! You've made your first call to JSONPlaceholder. 😃 🎉
+  </p>
+        <div class="horizontal flat adaptive" data-ea-publisher="jsonplaceholdertypicodecom" data-ea-style="stickybox" data-ea-keywords="javascript|typescript|mobile|react|vue|frontend|front-end|backend|back-end"/>
+      </section>
+      <main class="container mx-auto max-w-4xl">
+        <h2>When to use</h2>
+        <p>
+JSONPlaceholder is a free online REST API that you can use           <strong>whenever you need some fake data</strong>
+. It can be in a README on GitHub, for a demo on CodeSandbox, in code examples on Stack Overflow, ...or simply to test things locally.        </p>
+        <h2>Resources</h2>
+        <p>JSONPlaceholder comes with a set of 6 common resources:</p>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="1" rowspan="1"/>
+              <th colspan="1" rowspan="1"/>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="1" rowspan="1">
+                <a shape="rect" href="/posts">/posts</a>
+              </td>
+              <td colspan="1" rowspan="1">100 posts</td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="1">
+                <a shape="rect" href="/comments">/comments</a>
+              </td>
+              <td colspan="1" rowspan="1">500 comments</td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="1">
+                <a shape="rect" href="/albums">/albums</a>
+              </td>
+              <td colspan="1" rowspan="1">100 albums</td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="1">
+                <a shape="rect" href="/photos">/photos</a>
+              </td>
+              <td colspan="1" rowspan="1">5000 photos</td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="1">
+                <a shape="rect" href="/todos">/todos</a>
+              </td>
+              <td colspan="1" rowspan="1">200 todos</td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="1">
+                <a shape="rect" href="/users">/users</a>
+              </td>
+              <td colspan="1" rowspan="1">10 users</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          <strong>Note</strong>
+: resources have relations. For example: posts have many comments, albums have many photos, ... see           <a shape="rect" href="/guide">guide</a>
+ for the full list.        </p>
+        <h2>Routes</h2>
+        <p>All HTTP methods are supported. You can use http or https for your requests.</p>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="1" rowspan="1"/>
+              <th colspan="1" rowspan="1"/>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="1" rowspan="1">GET</td>
+              <td colspan="1" rowspan="1">
+                <a shape="rect" href="/posts">/posts</a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="1">GET</td>
+              <td colspan="1" rowspan="1">
+                <a shape="rect" href="/posts/1">/posts/1</a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="1">GET</td>
+              <td colspan="1" rowspan="1">
+                <a shape="rect" href="/posts/1/comments">/posts/1/comments</a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="1">GET</td>
+              <td colspan="1" rowspan="1">
+                <a shape="rect" href="/comments?postId=1">/comments?postId=1</a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="1">POST</td>
+              <td colspan="1" rowspan="1">/posts</td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="1">PUT</td>
+              <td colspan="1" rowspan="1">/posts/1</td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="1">PATCH</td>
+              <td colspan="1" rowspan="1">/posts/1</td>
+            </tr>
+            <tr>
+              <td colspan="1" rowspan="1">DELETE</td>
+              <td colspan="1" rowspan="1">/posts/1</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          <strong>Note</strong>
+: see           <a shape="rect" href="/guide">guide</a>
+ for usage examples.        </p>
+        <h2>Use your own data</h2>
+        <p>
+With our sponsor           <a shape="rect" href="https://mockend.com">Mockend</a>
+ and a simple GitHub repo, you can have your own fake online REST server in seconds.        </p>
+      </main>
+      <script>
+  // Use http or https based on location.protocol
+  var example = document.getElementById('example')
+  example.textContent = example.textContent.replace('http:', location.protocol)
+
+  // Highlight result element
+  var result = document.getElementById('result')
+
+  // Run example
+  var runButton = document.getElementById('run-button')
+  runButton.onclick = function () {
+    var root = location.protocol + '//jsonplaceholder.typicode.com'
+    var runMessage = document.getElementById('run-message')
+
+    fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then((response) =&gt; response.json())
+      .then((json) =&gt; {
+        var str = JSON.stringify(json, null, '  ')
+
+        // Format result
+        result.innerHTML = Prism.highlight(
+          str,
+          Prism.languages.javascript,
+          'javascript'
+        )
+
+        runMessage.className = ''
+      })
+  }
+</script>
+    </div>
+    <footer class="container mx-auto max-w-4xl mt-four">
+      <div class="mb-one">
+        <a shape="rect" href="https://github.com/users/typicode/sponsorship">
+          <strong>You can sponsor this project (and others) on GitHub</strong>
+        </a>
+      </div>
+      <div class="mb-one">
+
+        Coded and maintained with ❤️ by
+                <a shape="rect" href="https://github.com/typicode">typicode</a>
+ © 2024
+            </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"/>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="createbooking" classname="com.api.automation.RestAssured.creakebookingwithpost" time="0.441">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "api testing",
+    "additionalneeds": "breakfast",
+    "bookingdates": {
+        "checkin": "2023-03-25",
+        "checkout": "2023-03-30"
+    },
+    "totalprice": 1000,
+    "depositpaid": true,
+    "lastname": "tutorial"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
